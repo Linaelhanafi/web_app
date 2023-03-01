@@ -636,8 +636,12 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 15.6875rem;
+    width: 5rem;
 }
+.navbar-custom .navbar-brand.logo-image-main img {
+    width: 13rem;
+}
+
 
 .big-logo-style {
 	width: 360px;
@@ -1360,6 +1364,8 @@ position: relative;
 .footer {
 	padding-top: 4rem;
 	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	border-top: 1px solid #c8d4d6;
 	background-color: #f7fafd;
 }
