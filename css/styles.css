@@ -644,9 +644,16 @@ input[type='checkbox'] {
 
 
 .big-logo-style {
-	width: 360px;
+	width: 150px;
+	margin-bottom: 200px;
 	z-index: 12;
-position: relative;
+	position: relative;
+}
+
+.big-logo2-style {
+	width: 150px;
+	z-index: 12;
+	position: relative;
 }
 
 .navbar-custom .navbar-brand.logo-text {
