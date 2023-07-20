@@ -792,7 +792,13 @@ input[type='checkbox'] {
 .header .text-container {
 	margin-bottom: 3rem;
 }
-
+.text-container2 {
+	margin-top: 3rem;
+}
+.alignnone {
+	height:auto;
+	width: 100%;
+}
 .header h1 {
 	color:#fff;
 	text-shadow: 0 0 6px #000;
