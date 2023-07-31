@@ -25,7 +25,7 @@ Table Of Contents:
 Colors:
 - Backgrounds - light gray #f7fafd
 - Backgrounds - gray #e8eff6
-- Buttons - red #007bff
+- Buttons - red #083266
 - Headings text, navbar links - black #333
 - Body text - dark gray #777
 ******************************************/
@@ -118,15 +118,15 @@ a:hover {
 }
 
 a.red {
-	color: #007bff;
+	color: #083266;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #007bff;
+	border: 0.125rem solid #083266;
 	border-radius: 2rem;
-	background-color: #007bff;
+	background-color: #083266;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
@@ -134,18 +134,18 @@ a.red {
 }
 
 .btn-solid-reg:hover {
-	border: 0.125rem solid #007bff;
+	border: 0.125rem solid #083266;
 	background-color: transparent;
-	color: #007bff;
+	color: #083266;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
-	border: 0.125rem solid #007bff;
+	border: 0.125rem solid #083266;
 	border-radius: 2rem;
-	background-color: #007bff;
+	background-color: #083266;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
@@ -153,9 +153,9 @@ a.red {
 }
 
 .btn-solid-lg:hover {
-	border: 0.125rem solid #007bff;
-	background-color: transparent;
-	color: #007bff;
+	border: 0.125rem solid #083266;
+	background-color: #fff;
+	color: #083266;
 	text-decoration: none;
 }
 
@@ -366,9 +366,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 0.125rem solid #007bff;
+	border: 0.125rem solid #083266;
 	border-radius: 1.5rem;
-	background-color: #007bff;
+	background-color: #083266;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	cursor: pointer;
@@ -376,9 +376,9 @@ input[type='checkbox'] {
 }
 
 .form-control-submit-button:hover {
-	border: 0.125rem solid #007bff;
+	border: 0.125rem solid #083266;
 	background-color: transparent;
-	color: #007bff;
+	color: #083266;
 }
 
 /* Form Success And Error Message Formatting */
@@ -386,7 +386,7 @@ input[type='checkbox'] {
 #pmsgSubmit.h3.text-center {
 	display: block;
 	margin-bottom: 0;
-	color: #007bff;
+	color: #083266;
 	font-weight: 400;
 	font-size: 1.125rem;
 	line-height: 1rem;
@@ -592,7 +592,7 @@ input[type='checkbox'] {
 	width: 1rem;
 	height: 1rem;
 	border-radius: 100%;
-	background-color: #007bff;
+	background-color: #083266;
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
@@ -629,7 +629,7 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #f7fafd;
+	background-color: #083266;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.875rem/0.875rem "Open Sans", sans-serif;
 	transition: all 0.2s;
@@ -639,7 +639,7 @@ input[type='checkbox'] {
     width: 5rem;
 }
 .navbar-custom .navbar-brand.logo-image-main img {
-    width: 13rem;
+    width: 16rem;
 }
 
 
@@ -658,7 +658,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-brand.logo-text {
 	font: 700 2rem/1rem "Open Sans", sans-serif;
-	color: #333;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -669,14 +669,14 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem;
-	color: #333;
+	color: #fff;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #007bff;
+	color: #c4d8dc;
 }
 
 /* Dropdown Menu */
@@ -725,7 +725,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #007bff;
+	color: #083266;
 }
 
 .navbar-custom .dropdown-divider {
@@ -742,20 +742,20 @@ input[type='checkbox'] {
 	margin-top: 0.125rem;
 	margin-bottom: 1.375rem;
 	margin-left: 0.5rem;
-	border: 0.125rem solid #007bff;
-	color: #007bff;
+	border: 0.125rem solid #083266;
+	color: #083266;
 }
 
 .navbar-custom .nav-item .btn-outline-sm:hover {
-	border: 0.125rem solid #007bff;
-	background-color: #007bff;
+	border: 0.125rem solid #083266;
+	background-color: #083266;
 	color: #fff;
 }
 
 .navbar-custom .navbar-toggler {
 	padding: 0;
 	border: none;
-	color: #333;
+	color: #fff;
 	font-size: 2rem;
 }
 
@@ -875,7 +875,7 @@ input[type='checkbox'] {
 }
 
 .cards-1 .card-image.red .fas {
-	color: #007bff;
+	color: #083266;
 }
 
 .cards-1 .card-image.yellow {
@@ -997,7 +997,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #007bff;
+	color: #083266;
 }
 /* end of action Button */
 
@@ -1067,12 +1067,12 @@ input[type='checkbox'] {
 }
 
 .tabs .nav-link.active {
-	background-color: #9a67e7;
+	background-color: #083266;
 	color: #fff;
 }
 
 .tabs .nav-link:hover {
-	background-color: #9a67e7;
+	background-color: #083266;
 	color: #fff;
 }
 
@@ -1142,7 +1142,7 @@ input[type='checkbox'] {
 }
 
 .basic-2 .fa-stack-2x.red {
-	color: #007bff;
+	color: #083266;
 }
 
 .basic-2 .fa-stack-2x.yellow {
@@ -1310,7 +1310,7 @@ input[type='checkbox'] {
 }
 
 .counter #counter .fas.red {
-	color: #007bff;
+	color: #083266;
 }
 
 .counter #counter .fas.yellow {
@@ -1462,7 +1462,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-	color: #007bff;
+	color: #083266;
 }
 
 .footer .fa-stack:hover .fa-stack-12x {
@@ -1709,8 +1709,8 @@ a:hover.back-to-top {
 
 	/* Navigation */
 	.navbar-custom {
-		padding: 2.125rem 1.5rem 2.125rem 2rem;
-    background-color: #e8eff6;
+		padding: 0 2.125rem;
+    background-color: #083266;;
 		box-shadow: none;
 	}
 	
@@ -1725,16 +1725,16 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
-		background-color: #e8eff6;
+		background-color: #083266;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #333;
+		color: #fff;
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover {
-		color: #007bff;
+		color: #c4d8dc;
 	}
 
 	.footer-container-inside {
