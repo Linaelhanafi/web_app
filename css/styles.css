@@ -2283,3 +2283,6 @@ z-index: 0;
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+.accordion-header:hover > button[class*="collapsed"]{
+	color: #0c63e4;
+}
