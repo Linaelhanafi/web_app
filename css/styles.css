@@ -1035,8 +1035,8 @@ input[type='checkbox'] {
 /*     08. Description 2    */
 /****************************/
 .tabs {
-	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
 	background-color: #e8eff6;
 }
 
@@ -1375,8 +1375,7 @@ input[type='checkbox'] {
 /*     14. Footer     */
 /**********************/
 .footer {
-	padding-top: 4rem;
-	padding-bottom: 1rem;
+	padding-top: 2rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
 	border-top: 1px solid #c8d4d6;
@@ -1523,9 +1522,10 @@ a:hover.back-to-top {
 /***************************/
 .ex-header {
 	padding-top: 8rem;
-	padding-bottom: 5rem;
-	background-color: #f7fafd;
+	/* background-color: #f7fafd; */
 	text-align: center;
+	background-color: #f7fafd;
+	background-size: cover;
 }
 .ex-header-news {
 	padding-top: 8rem;
@@ -1668,7 +1668,6 @@ a:hover.back-to-top {
 	/* Extra Pages */
 	.ex-header {
 		padding-top: 11rem;
-		padding-bottom: 9rem;
 	}
 	.ex-header-news {
 		padding-top: 11rem;
