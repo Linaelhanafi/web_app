@@ -2283,6 +2283,60 @@ z-index: 0;
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
 .accordion-header:hover > button[class*="collapsed"]{
 	color: #0c63e4;
+}
+
+.img-div{
+	position: relative;
+	overflow: hidden;
+}
+
+.img-1,.img-2{
+	position: relative;
+}
+/* .img-1:hover ~ .img-2,
+.img-2:hover ~ .img-1 {
+  animation: none;
+} */
+.img-1{
+	animation: anim 26s linear infinite;
+	/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+.img-2{
+	transform: translateY(-100%);
+	animation: anim1 26s linear infinite;
+	animation-delay: -13s;
+}
+
+@keyframes anim {
+	0%{
+		left: 100%;
+		z-index: 2;
+	}
+	3%{
+		left: 0%;
+	}
+	50%{
+		z-index: 1;
+	}
+	100%{
+		left: 0%;
+	}
+}
+@keyframes anim1 {
+	0%{
+		left: -100%;
+		z-index: 2;
+	}
+	3%{
+		left: 0%;
+	}
+	50%{
+		z-index: 1;
+	}
+	100%{
+		left: 0%;
+	}
 }
