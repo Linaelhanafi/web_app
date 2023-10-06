@@ -122,30 +122,31 @@
                     <ul class="nav nav-tabs" id="cedoTabs" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab"
-                                aria-controls="tab-1" aria-selected="true"><i class="far fa-clock"></i>Overview</a>
+                                aria-controls="tab-1" aria-selected="false"><i class="far fa-clock"></i>Overview</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab"
                                 aria-controls="tab-2" aria-selected="false"><i class="fas fa-list"></i>Schedule</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="nav-tab-4" data-toggle="tab" href="#tab-4" role="tab"
-                                aria-controls="tab-3" aria-selected="false"><i class="fas fa-user"></i>Full Program
-                                With Abstracts</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab"
                                 aria-controls="tab-3" aria-selected="false"><i class="fas fa-user"></i>Committee</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" id="nav-tab-4" data-toggle="tab" href="#tab-4" role="tab"
+                                aria-controls="tab-4" aria-selected="false"><i class="fas fa-user"></i>Full Program
+                                With Abstracts</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" id="nav-tab-5" data-toggle="tab" href="#tab-5" role="tab"
-                                aria-controls="tab-3" aria-selected="false"><i class="fas fa-user"></i>Contact</a>
+                                aria-controls="tab-5" aria-selected="false"><i class="fas fa-user"></i>Contact</a>
                         </li>
                     </ul>
                     <!-- end of tabs links -->
 
                     <!-- Tabs Content -->
                     <div class="tab-content" id="cedoTabsContent">
+
                         <!-- Tab -->
                         <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
                             <p><strong>The symposium draws proposals by researchers from across fields and
@@ -171,10 +172,10 @@
                             <p>Wednesday, November 29: 9:30am-5:30pm</p>
                             <p>Thursday, November 30: 9:00am-12:00am</p>
 
-                        </div> <!-- end of tab-pane -->
+                        </div> 
                         <!-- end of tab -->
 
-                        <div style="text-align: center;" class="tab-pane fade show active" id="tab-5" role="tabpanel"  aria-labelledby="tab-5">
+                        <div style="text-align: center;" class="tab-pane fade show" id="tab-5" role="tabpanel"  aria-labelledby="tab-5">
                             <p>For further information please do not hesitate to contact :</br>
                                 <strong>aemsresearch@iiit.org</strong>
                             </p>
@@ -182,7 +183,7 @@
                         </div>
 
                         <!-- Tab -->
-                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                        <div class="tab-pane fade show " id="tab-2" role="tabpanel" aria-labelledby="tab-2">
                             <div class="container my-5">
                                 <h1 class="text-center mb-5">Program Schedule Overview</h1>
 
@@ -197,13 +198,14 @@
                                     <!-- Day 1 -->
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="dayOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseDayOne" aria-expanded="true"
+                                            <button class="accordion-button collapsed" type="button" 
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseDayOne" aria-expanded="false"
                                                 aria-controls="collapseDayOne">
                                                 (Day 1) Tuesday, November 28, 2023
                                             </button>
                                         </h2>
-                                        <div id="collapseDayOne" class="accordion-collapse collapse show"
+                                        <div id="collapseDayOne" class="accordion-collapse collapse"
                                             aria-labelledby="dayOne" data-bs-parent="#scheduleAccordion">
                                             <div class="accordion-body">
                                                 <p><strong>Registration 09:00-09:30 am</strong></p>
@@ -383,10 +385,10 @@
                                 </div>
                             </div>
 
-                        </div> <!-- end of tab-pane -->
+                        </div> 
                         <!-- end of tab -->
                         <!-- Tab -->
-                        <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4">
+                        <div class="tab-pane fade show" id="tab-4" role="tabpanel" aria-labelledby="tab-4">
                             <div>
                                 <h3>Tuesday, November 28 I 11:30-12:40 p.m</br>
                                     Panel 1: Empowerment through Literacy
@@ -1164,7 +1166,7 @@
                             
                         </div>
                         <!-- Tab -->
-                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                        <div class="tab-pane fade show" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
                             <section class="text-block clearfix" id="conference-organizing-committee">
                                 <div className="bio-container">
                                     <h2 style="margin-bottom: 3rem;color: #103464;text-align: center;">Conference
@@ -1332,8 +1334,9 @@
                                     </div>
                                 </div>
                             </section>
-                        </div> <!-- end of tab-pane -->
+                        </div> 
                         <!-- end of tab -->
+
                     </div> <!-- end of tab-content -->
                     <!-- end of nav tabs content -->
 
