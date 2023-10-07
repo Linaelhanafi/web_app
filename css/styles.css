@@ -2101,7 +2101,7 @@ z-index: 0;
 	}
 
 	.basic-1 .text-container {
-		margin-top: 5rem;
+		margin-top: 1rem;
 		margin-left: 2.5rem;
 	}
 	/* end of description 1 */
@@ -2288,6 +2288,10 @@ z-index: 0;
 	color: #0c63e4;
 }
 
+.hover-blue:hover{
+	color: #0c63e4;
+}
+
 .img-div{
 	position: relative;
 	overflow: hidden;
@@ -2308,6 +2312,13 @@ z-index: 0;
 	transform: translateY(-100%);
 	animation: anim1 26s linear infinite;
 	animation-delay: -13s;
+}
+.col-lg-6 .image-container{
+	padding-top: 0rem;
+}
+
+.media, p{
+	text-align: justify;
 }
 
 @keyframes anim {
