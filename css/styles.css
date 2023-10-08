@@ -2288,7 +2288,7 @@ z-index: 0;
 	color: #0c63e4;
 }
 
-.hover-blue:hover{
+.hover-blue:hover,.hover-blue:hover > p{
 	color: #0c63e4;
 }
 
