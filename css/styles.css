@@ -1061,7 +1061,7 @@ input[type='checkbox'] {
 	background-color: #f7fafd;
 	color: #777;
 	font-weight: 700;
-	font-size: 1.125rem;
+	font-size: 0.86rem;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -1394,7 +1394,6 @@ input[type='checkbox'] {
 }
 
 .footer .footer-col {
-	display: inline-block;
 	width: 14.5rem;
     margin-right: 1rem;
 	margin-bottom: 1.5rem;
@@ -1607,13 +1606,102 @@ a:hover.back-to-top {
 	margin-top: 1.5rem;
 }
 
+.header-container-news{
+	padding: 25px;
+	grid-template-columns: repeat(2,minmax(0,1fr));
+}
 
+.news-title-container{
+	padding: 0 15px;
+	margin-top: 0;
+}
+.responsive-text {
+  font-size: 16px;
+}
+.responsive-text-2 {
+  font-size: 14px;
+}
+
+.responsive-text-3 {
+  font-size: 20px;
+}
+.news-title-content {
+	margin-bottom: 35px;
+}
+.top-button-class{
+	margin-bottom: 25px;
+}
+.bio{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+	flex-direction: column;
+}
+.bio-image{
+	align-self: flex-start;
+	margin-top: 0;
+	 margin-left: 0;
+	 margin-bottom: 32px;
+	 justify-content: center;
+	 align-items: center;
+	 width: 100%;
+	 display: flex;
+}
 /*****************************/
 /*     18. Media Queries     */
 /*****************************/	
 /* Min-width 768px */
 @media (min-width: 768px) {
 	
+.bio-image{
+	align-self: flex-start;
+	margin-top: 60px;
+	width: auto;
+	margin-bottom: 0;
+	 margin-left: 5px;
+	 display: inline;
+}
+.bio{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+}
+.tabs .nav-link {
+	padding: 0.5rem 1.5rem;
+	border-radius: 0;
+	background-color: #f7fafd;
+	color: #777;
+	font-weight: 700;
+	font-size: 1.125rem;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+	
+.responsive-text {
+  font-size: 1.25rem;
+}
+
+.responsive-text-2 {
+  font-size: 1rem;
+}
+
+.responsive-text-3 {
+  font-size: 1.8rem;
+}
+.top-button-class{
+	margin-bottom: 0;
+}
+.news-title-content {
+	margin-bottom: 45px;
+}
+	.header-container-news{
+		padding: 0;
+		grid-template-columns: repeat(4,minmax(0,1fr));
+	}
 	/* Header */
 	.header .text-container {
 		margin-bottom: 6rem;
@@ -1686,7 +1774,10 @@ a:hover.back-to-top {
 
 /* Min-width 992px */
 @media (min-width: 992px) {
-	
+	.news-title-container{
+		padding: 0 150px;
+		margin-top: 4rem;
+	}
 	/* General Styles */
 	.p-heading {
 		width: 80%;
@@ -2039,7 +2130,6 @@ z-index: 0;
 
 /* Min-width 1200px */
 @media (min-width: 1200px) {
-	
 	/* Header */
 	.header .image-container {
 		margin-right: auto;
