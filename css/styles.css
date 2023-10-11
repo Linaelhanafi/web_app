@@ -1648,12 +1648,24 @@ a:hover.back-to-top {
 	 width: 100%;
 	 display: flex;
 }
+.show-on-mobile{
+	display: inline;
+}
+.hide-on-mobile{
+	display: none;
+}
 /*****************************/
 /*     18. Media Queries     */
 /*****************************/	
 /* Min-width 768px */
 @media (min-width: 768px) {
 	
+.show-on-mobile{
+	display: none;
+}
+.hide-on-mobile{
+	display: inline;
+}
 .bio-image{
 	align-self: flex-start;
 	margin-top: 60px;
