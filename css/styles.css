@@ -643,12 +643,6 @@ input[type='checkbox'] {
 }
 
 
-.big-logo-style {
-	width: 150px;
-	margin-bottom: 200px;
-	z-index: 12;
-	position: relative;
-}
 
 .big-logo2-style {
 	width: 150px;
@@ -790,7 +784,7 @@ input[type='checkbox'] {
 }
 
 .header .text-container {
-	margin-bottom: 3rem;
+	margin-bottom: 0rem;
 }
 .text-container2 {
 	margin-top: 3rem;
@@ -1654,12 +1648,64 @@ a:hover.back-to-top {
 .hide-on-mobile{
 	display: none;
 }
+
+.big-logo-style {
+	width: 80px;
+	margin-bottom: 24px;
+	z-index: 12;
+	position: relative;
+}
+.responsive-line{
+	line-height: 1.2rem;
+}
+.nomarginphone {
+ margin: 8px 0;
+}
+.actionButtonsContainer {
+	margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+	margin-bottom: 70px;
+}
+.buttonsInnerContainer {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+	margin-top: 15px;
+}
+.slider-responsive {
+	margin-top: 0;
+}
 /*****************************/
 /*     18. Media Queries     */
 /*****************************/	
 /* Min-width 768px */
 @media (min-width: 768px) {
 	
+.slider-responsive {
+	margin-top: -15rem;
+}
+.buttonsInnerContainer {
+  flex-direction: row;
+}
+	.nomarginphone {
+		margin:5rem;
+	 }
+	.responsive-line{
+		line-height: 3.375rem;
+	}
+.big-logo-style {
+	width: 150px;
+	margin-bottom: 200px;
+	z-index: 12;
+	position: relative;
+}
+
 .show-on-mobile{
 	display: none;
 }
@@ -1786,6 +1832,10 @@ a:hover.back-to-top {
 
 /* Min-width 992px */
 @media (min-width: 992px) {
+	
+.buttonsInnerContainer {
+  flex-direction: column;
+}
 	.news-title-container{
 		padding: 0 150px;
 		margin-top: 4rem;
@@ -2142,6 +2192,10 @@ z-index: 0;
 
 /* Min-width 1200px */
 @media (min-width: 1200px) {
+	
+.buttonsInnerContainer {
+  flex-direction: row;
+}
 	/* Header */
 	.header .image-container {
 		margin-right: auto;
